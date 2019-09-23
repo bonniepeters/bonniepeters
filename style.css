@@ -1,0 +1,57 @@
+body{
+    margin: 2em auto;
+}
+header {
+    display: grid;
+    grid-template-rows: 1.5fr .5fr;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#home {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 2em 3.2em 2em 2em;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+h1 {
+    font-size: 1.75em;
+}
+h2 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.3em;
+}
+h3 {
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+nav {
+    position: relative;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+a { 
+    text-decoration: none;
+}
+#about {
+    background-color: rgb(0, 225, 255);
+    height: 600px;
+}
+#portfolio {
+    background-color: rgb(162, 216, 132);
+    height: 600px;
+}
+#blog {
+    background-color: rgb(177, 125, 197);
+    height: 600px;
+}
+#connect {
+    background-color: rgb(230, 139, 66);
+    height: 600px;
+}
