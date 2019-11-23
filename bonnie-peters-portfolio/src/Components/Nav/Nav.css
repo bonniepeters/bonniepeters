@@ -2,10 +2,11 @@
     width: 100%;
     display: flex;
     top: 0;
+    background-color: white;
 }
 .logo {
     width: 60px;
 }
-.nav a {
+.nav-link {
     padding: 1em;
 }

@@ -3,4 +3,32 @@
     background-size: 100%;
     height: 500px;
     color: white;
+    border: 5px solid rgb(253, 85, 48);
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cover a {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    width: 80%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+.quote p {
+    margin: 0;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    font-family: 'Lato', sans-serif;
+}
+.quote h2 {
+    font-size: 1.3em;
+    margin: 0;
 }

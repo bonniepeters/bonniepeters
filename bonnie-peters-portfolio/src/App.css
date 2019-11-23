@@ -9,12 +9,52 @@ font-family: 'Roboto', sans-serif; */
 body {
   margin: 0;
 }
-h1 {
-  margin: 0;
-}
-main {
-  margin-top: 30px;
-}
 .social-image {
   max-width: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h2, h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+}
+h1 {
+  padding-bottom: 78%;
+  margin: 5px;
+}
+
+.about h2, .work h2 {
+  border-left: 2px solid rgb(253, 85, 48);
+  padding-left: 5px;
+  line-height: 1em;
+  margin-left: 8px;
+  margin-bottom: 0;
+  width: 87.3%;
+  padding: 4%;
+  letter-spacing: 2px;
+}
+.about p {
+  border-right: 2px solid rgb(253, 85, 48);
+}
+.about p, .work .project {
+  margin: 0 .5em;
+  padding: 1em;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .4px;
+}
+.work .project {
+  border-left: 2px solid rgb(253, 85, 48);
+}
+
+.about h2 {
+  border-bottom: 2px solid rgb(253, 85, 48);
+}
+
+.work h2{
+  margin-top: 0;
+  border-top: 2px solid rgb(253, 85, 48);
 }

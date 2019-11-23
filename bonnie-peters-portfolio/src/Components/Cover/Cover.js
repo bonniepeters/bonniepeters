@@ -6,9 +6,11 @@ class Cover extends Component {
     return (
       <div className="cover">
         <h1>Bonnie Peters</h1>
+        <div className="quote">
         <p>“I have no special talents.<br/>
           I am only passionately curious.”</p>
-        <h2>-Albert Einstein</h2>
+          <h2>Albert Einstein</h2>
+          </div>
         <div class="social-links">
           <a href='#'>GitHub |</a>
           <a href='#'>LinkedIn |</a>

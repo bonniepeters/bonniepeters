@@ -5,15 +5,15 @@ class Nav extends Component {
   render() {
     return (
       <nav className="nav">
-        <a href='#about'>About</a>
-        <a href='#work'>Work</a>
-        <img
+        <a className="nav-link" href='#about'>About</a>
+        <a className="nav-link" href='#work'>Work</a>
+        <a href='#home'><img
           src={process.env.PUBLIC_URL + '/BonsLogo.png'}
           alt="logo"
           className="logo"
-        />
-        <a href='#contact'>Contact</a>
-        <a href='#'>Blog</a>
+        /></a>
+        <a className="nav-link" href='#contact'>Contact</a>
+        <a className="nav-link" href='#'>Blog</a>
         </nav>
     );
   }

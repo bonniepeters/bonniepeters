@@ -5,18 +5,22 @@ import Cover from "../Cover/Cover";
 import About from "../About/About";
 import Work from "../Work/Work";
 import Footer from "../Footer/Footer";
-import Sticky from 'react-sticky-el';
+import Sticky from "react-sticky-el";
+import { configureAnchors } from "react-scrollable-anchor";
+
+configureAnchors({ offset: -63 });
 
 class Home extends Component {
   render() {
     return (
       <div className="home">
-              <Sticky>
-
+        <Sticky>
           <Header />
-          </Sticky>
+        </Sticky>
+        <ScrollableAnchor id={"home"}>
+            <Cover />
+          </ScrollableAnchor>
         <main>
-          <Cover />
           <ScrollableAnchor id={"about"}>
             <About />
           </ScrollableAnchor>
