@@ -1,15 +1,20 @@
 import React, { Component } from "react";
+import "./Nav.css";
 
 class Nav extends Component {
   render() {
     return (
-      <div className="nav">
-        <h2>Nav</h2>
-        <a href='#about'> About </a>
-        <a href='#work'> Work </a>
-        <a href='#contact'> Contact </a>
-        <a href='#'> Blog </a>
-      </div>
+      <nav className="nav">
+        <a href='#about'>About</a>
+        <a href='#work'>Work</a>
+        <img
+          src={process.env.PUBLIC_URL + '/BonsLogo.png'}
+          alt="logo"
+          className="logo"
+        />
+        <a href='#contact'>Contact</a>
+        <a href='#'>Blog</a>
+        </nav>
     );
   }
 }

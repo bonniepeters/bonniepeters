@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
-}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
-.App-logo {
-  height: 40vmin;
+.header {
+  font-family: 'Raleway', sans-serif;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  margin: 0;
 }
-
-.App-link {
-  color: #09d3ac;
+h1 {
+  margin: 0;
+}
+main {
+  margin-top: 30px;
+}
+.social-image {
+  max-width: 40px;
 }
