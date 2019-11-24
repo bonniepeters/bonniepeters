@@ -11,11 +11,11 @@ class Cover extends Component {
           I am only passionately curious.”</p>
           <h2>Albert Einstein</h2>
           </div>
-        <div class="social-links">
-          <a href='#'>GitHub |</a>
-          <a href='#'>LinkedIn |</a>
-          <a href='#'>Twitter |</a>
-          <a href='#'>Instagram</a>
+        <div className="social-links">
+          <a target="_blank" href='https://github.com/bonniepeters'>GitHub |</a>
+          <a target="_blank" href='https://www.linkedin.com/in/bonnieepeters/'>LinkedIn |</a>
+          <a target="_blank" href='https://twitter.com/BonnieEPeters'>Twitter |</a>
+          <a target="_blank" href='https://www.instagram.com/bonnie_peters_/'>Instagram</a>
         </div>
       </div>
     );

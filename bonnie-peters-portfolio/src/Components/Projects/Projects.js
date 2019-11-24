@@ -5,22 +5,30 @@ class Projects extends Component {
   render() {
     const projects = listOfProjects.map(project => {
       return (
-      <>
+        <>
+          <a href={project.links.live} target="_blank" >
+          <img
+          src={process.env.PUBLIC_URL + project.image}
+            alt="image of project"
+            className="project-image"
+            
+            />
+            </a>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
         <ul>
           <li>
-            <a href={project.links.frontend}>
+            <a href={project.links.frontend} target="_blank" >
               Front-End Github Repository
             </a>
           </li>
           <li>
-            <a href={project.links.backend}>
+            <a href={project.links.backend} target="_blank" >
               Back-End Github Repository
             </a>
           </li>
           <li>
-            <a href={project.links.live}>
+            <a href={project.links.live} target="_blank" >
               Deployed Application
             </a>
           </li>
