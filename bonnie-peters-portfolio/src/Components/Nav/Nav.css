@@ -3,10 +3,12 @@
     display: flex;
     top: 0;
     background-color: white;
+    align-items: center;
 }
 .logo {
     width: 60px;
 }
 .nav-link {
-    padding: 1em;
+    padding: .5em;
+    font-size: 1.3em;
 }

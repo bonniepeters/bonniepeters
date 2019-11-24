@@ -8,7 +8,7 @@ class Nav extends Component {
         <a className="nav-link" href='#about'>About</a>
         <a className="nav-link" href='#work'>Work</a>
         <a href='#home'><img
-          src={process.env.PUBLIC_URL + '/BonsLogo.png'}
+          src={process.env.PUBLIC_URL + '/B_P Logo.png'}
           alt="logo"
           className="logo"
         /></a>
