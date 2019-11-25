@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <div className="about">
         <h2>About</h2>
-        <p>Hello, I’m Bonnie. I’m a front end developer, traveler, and National Geographic subscriber. My love of exploration and National Geographic both stem from my grandmother. She taught me to  always wonder at the world around me and to celebrate the opportunity to engage an unfamiliar subject. I carry those values with me as a developer, always energized by the problems I can’t solve with my current knowledge. The opportunity to learn a new algorithm, framework, or language in order to accomplish a task excites me!</p>
+        <p>Hello, I’m Bonnie. I’m a front end developer, traveler, and National Geographic subscriber. Thanks to my grandmother and her library of National Geographic issues when I was growing up, I developed a relentless curiosity to explore different cultures and subjects outside my surrounding world. As an adult, I continue to subscribe to National Geographic and apply what I have learned in those pages about the diversity of humanity to the way I code. I always strive to build applications that speak to people who see things differently than I do. Whatever it takes to make that product, whether its learning a new algorithm, framework, or language, I'm up for the challenge!</p>
       </div>
     );
   }
