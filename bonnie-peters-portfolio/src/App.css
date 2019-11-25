@@ -2,7 +2,10 @@
 font-family: 'Oswald', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto', sans-serif; */
-
+.container {
+  position: relative;
+  min-height: 100vh;
+}
 .header {
   font-family: 'Raleway', sans-serif;
 }
@@ -43,6 +46,12 @@ main > div > h2 {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .4px;
 }
+.work {
+  padding-bottom: 4em;
+}
+.about {
+  margin: 0 .05em;
+}
 .work .project {
   border-left: 2px solid rgb(253, 85, 48);
 }
@@ -72,6 +81,8 @@ li {
   padding: 8px;
   width: 80%;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
 }
 li > a {
   color: white;

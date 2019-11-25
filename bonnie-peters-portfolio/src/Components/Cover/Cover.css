@@ -1,6 +1,7 @@
 .cover {
-    background-image: url("/images/Cover.jpg");
-    background-size: 100%;
+    background-image: url("/images/Headshot.jpg");
+    background-size: cover;
+    background-position: center bottom;
     height: 500px;
     color: white;
     border: 5px solid rgb(253, 85, 48);

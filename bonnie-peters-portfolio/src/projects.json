@@ -1,7 +1,7 @@
 [
   {
     "name": "Seattle Bucket List",
-    "description": "This Express app was designed with a specific place and user in mind: Seattle and the The Peters'(Lucas and Bonnie). It allows us and other guests to add details about places and activities we can checkout in the Seattle area.",
+    "description": "An Express application that allows users to add details about places and activities to explore in the Seattle area.",
     "image": "/images/Seattle Bucket List.png",
     "links": {
       "frontend": "https://github.com/bonniepeters/Seattle-Bucket-List",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Holiday Binge Buddy",
-    "description": "Have you ever wanted to snuggle up and watch an episode of your favorite show where they celebrate your favorite holiday? Ever wondered which shows aired holiday specials or what seasons and episode numbers those specials were? Well, you're in luck! This full stack application allows you to browse a list of user-submitted shows and all their holiday episodes. Don't see your show in the list yet? Add it along with the season and episode number for the next holiday show binger who peruses the list!",
+    "description": "This full stack application was built with Django, Postgres, React, and Bootsrap. It allows users to browse a list of user-submitted shows and view details about the special holiday episodes the show aired.",
     "image": "/images/Holiday Binge Buddy.png",
     "links": {
       "frontend": "https://github.com/bonniepeters/holiday-binge-buddy",

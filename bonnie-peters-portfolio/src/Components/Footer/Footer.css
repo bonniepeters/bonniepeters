@@ -4,6 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
 .social-image {
     filter: brightness(0) invert(1);
