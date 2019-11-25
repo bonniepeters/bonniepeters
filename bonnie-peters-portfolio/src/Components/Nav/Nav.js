@@ -16,7 +16,7 @@ class Nav extends Component {
         />
         </a>
         <a className="nav-link" href="mailto:bonnie.e.peters@gmail.com">Contact</a>
-        <Link className="nav-link" to='/bonniepeters/blog'>Blog</Link>
+        <Link className="nav-link" to='/blog'>Blog</Link>
         </nav>
     );
   }
