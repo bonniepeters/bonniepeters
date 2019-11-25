@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bonniepeters/static/css/main.d0dc0b54.chunk.css",
-    "main.js": "/bonniepeters/static/js/main.6941af12.chunk.js",
-    "main.js.map": "/bonniepeters/static/js/main.6941af12.chunk.js.map",
+    "main.css": "/bonniepeters/static/css/main.f261c641.chunk.css",
+    "main.js": "/bonniepeters/static/js/main.a07e86af.chunk.js",
+    "main.js.map": "/bonniepeters/static/js/main.a07e86af.chunk.js.map",
     "runtime-main.js": "/bonniepeters/static/js/runtime-main.445418b9.js",
     "runtime-main.js.map": "/bonniepeters/static/js/runtime-main.445418b9.js.map",
     "static/js/2.f94d2c26.chunk.js": "/bonniepeters/static/js/2.f94d2c26.chunk.js",
     "static/js/2.f94d2c26.chunk.js.map": "/bonniepeters/static/js/2.f94d2c26.chunk.js.map",
     "index.html": "/bonniepeters/index.html",
-    "precache-manifest.fe2be89a4d107cfcb56b863e2f103365.js": "/bonniepeters/precache-manifest.fe2be89a4d107cfcb56b863e2f103365.js",
+    "precache-manifest.6ac3041399a1a33953c01cb4b8fd3be3.js": "/bonniepeters/precache-manifest.6ac3041399a1a33953c01cb4b8fd3be3.js",
     "service-worker.js": "/bonniepeters/service-worker.js",
-    "static/css/main.d0dc0b54.chunk.css.map": "/bonniepeters/static/css/main.d0dc0b54.chunk.css.map"
+    "static/css/main.f261c641.chunk.css.map": "/bonniepeters/static/css/main.f261c641.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.445418b9.js",
     "static/js/2.f94d2c26.chunk.js",
-    "static/css/main.d0dc0b54.chunk.css",
-    "static/js/main.6941af12.chunk.js"
+    "static/css/main.f261c641.chunk.css",
+    "static/js/main.a07e86af.chunk.js"
   ]
 }
