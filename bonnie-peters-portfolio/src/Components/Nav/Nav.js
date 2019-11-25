@@ -6,9 +6,9 @@ class Nav extends Component {
   render() {
     return (
       <nav className="nav">
-        <a className="nav-link" href='/#about'>About</a>
-        <a className="nav-link" href='/#work'>Work</a>
-        <a href='/#home'>
+        <a className="nav-link" href='/bonniepeters/#about'>About</a>
+        <a className="nav-link" href='/bonniepeters/#work'>Work</a>
+        <a href='/bonniepeters/#home'>
           <img
           src={process.env.PUBLIC_URL + '/images/B_P Logo.png'}
           alt="logo"
@@ -16,7 +16,7 @@ class Nav extends Component {
         />
         </a>
         <a className="nav-link" href="mailto:bonnie.e.peters@gmail.com">Contact</a>
-        <Link className="nav-link" to='/blog'>Blog</Link>
+        <Link className="nav-link" to='/bonniepeters/blog'>Blog</Link>
         </nav>
     );
   }
