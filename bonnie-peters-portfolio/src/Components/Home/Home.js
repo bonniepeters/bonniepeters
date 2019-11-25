@@ -12,16 +12,16 @@ class Home extends Component {
     return (
       <div className="home">
         <ScrollableAnchor id={"home"}>
-            <Cover />
+          <Cover />
+        </ScrollableAnchor>
+        <div className="content">
+        <ScrollableAnchor id={"about"}>
+          <About />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"work"}>
+          <Work />
           </ScrollableAnchor>
-        <main>
-          <ScrollableAnchor id={"about"}>
-            <About />
-          </ScrollableAnchor>
-          <ScrollableAnchor id={"work"}>
-            <Work />
-          </ScrollableAnchor>
-        </main>
+          </div>
       </div>
     );
   }

@@ -22,47 +22,33 @@ h2, h1, h3 {
   font-weight: lighter;
 }
 h1 {
-  padding-bottom: 78%;
+  padding-bottom: 90%;
   margin: 5px;
+  font-size: 2.6em;
 }
-
-main > div > h2 {
-  border-left: 2px solid rgb(253, 85, 48);
-  padding-left: 5px;
-  line-height: 1em;
-  margin-left: 8px;
-  margin-bottom: 0;
-  width: 87.3%;
-  padding: 4%;
+h2 {
   letter-spacing: 2px;
+  margin: 0;
+}
+.content {
+  margin: 4% 4% 0 4%;
+}
+.work, .about h2 {
+  margin: 0;
+  padding: 4%;
+  border-left: 2px solid rgb(253, 85, 48);
+  border-bottom: 2px solid rgb(253, 85, 48);
+}
+.about {
+  border-bottom: 2px solid rgb(253, 85, 48);
 }
 .about p {
+  margin: 0;
+  padding: 4%;
   border-right: 2px solid rgb(253, 85, 48);
-}
-.about p, .work .project {
-  margin: 0 .5em;
-  padding: 1em;
-  text-align: justify;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: .4px;
 }
 .work {
   padding-bottom: 4em;
-}
-.about {
-  margin: 0 .05em;
-}
-.work .project {
-  border-left: 2px solid rgb(253, 85, 48);
-}
-
-.about h2 {
-  border-bottom: 2px solid rgb(253, 85, 48);
-}
-
-.work h2{
-  margin-top: 0;
-  border-top: 2px solid rgb(253, 85, 48);
 }
 .project-image {
   max-width: 100%;

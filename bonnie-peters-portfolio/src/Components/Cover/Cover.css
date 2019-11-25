@@ -1,17 +1,20 @@
 .cover {
-    /* background-image: url("/images/Headshot.jpg"); */
+    background-image: url("https://i.imgur.com/sX1g8wZ.jpg");
     background-size: cover;
     background-position: center bottom;
-    height: 500px;
+    width: 100%;
     color: white;
+    margin-bottom: 5%;
+}
+.test {
     border: 5px solid rgb(253, 85, 48);
+    background-color: black;
     display: grid;
     justify-items: center;
     text-align: center;
-    margin-bottom: 15px;
 }
 
-.cover a {
+.test a {
     text-decoration: none;
     color: white;
     padding: 4px;
@@ -32,4 +35,7 @@
 .quote h2 {
     font-size: 1.3em;
     margin: 0;
+}
+.social-links {
+    margin: 5%;
 }
