@@ -4,7 +4,11 @@ import "./Cover.css";
 class Cover extends Component {
   render() {
     return (
-      <div className="cover">
+      <div className="cover"
+      style={{
+        backgroundImage: "url('/images/Headshot.jpg')"
+        }}
+      >
         <h1>Bonnie Peters</h1>
         <div className="quote">
         <p>“I have no special talents.<br/>
@@ -12,10 +16,10 @@ class Cover extends Component {
           <h2>Albert Einstein</h2>
           </div>
         <div className="social-links">
-          <a target="_blank" href='https://github.com/bonniepeters'>GitHub |</a>
-          <a target="_blank" href='https://www.linkedin.com/in/bonnieepeters/'>LinkedIn |</a>
-          <a target="_blank" href='https://twitter.com/BonnieEPeters'>Twitter |</a>
-          <a target="_blank" href='https://www.instagram.com/bonnie_peters_/'>Instagram</a>
+          <a href="https://github.com/bonniepeters" target="_blank" rel="noopener noreferrer">GitHub |</a>
+          <a href="https://www.linkedin.com/in/bonnieepeters/" target="_blank" rel="noopener noreferrer">LinkedIn |</a>
+          <a href="https://twitter.com/BonnieEPeters" target="_blank" rel="noopener noreferrer">Twitter |</a>
+          <a href="https://www.instagram.com/bonnie_peters_/" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
     );

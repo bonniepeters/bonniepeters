@@ -1,5 +1,5 @@
 .cover {
-    background-image: url("/images/Headshot.jpg");
+    /* background-image: url("/images/Headshot.jpg"); */
     background-size: cover;
     background-position: center bottom;
     height: 500px;

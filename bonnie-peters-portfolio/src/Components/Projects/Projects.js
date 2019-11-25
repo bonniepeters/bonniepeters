@@ -6,10 +6,10 @@ class Projects extends Component {
     const projects = listOfProjects.map(project => {
       return (
         <>
-          <a href={project.links.live} target="_blank" >
+          <a rel="noopener noreferrer" href={project.links.live} target="_blank" >
           <img
           src={process.env.PUBLIC_URL + project.image}
-            alt="image of project"
+            alt="project"
             className="project-image"
             
             />
@@ -18,17 +18,17 @@ class Projects extends Component {
         <p>{project.description}</p>
         <ul>
           <li>
-            <a href={project.links.frontend} target="_blank" >
+            <a rel="noopener noreferrer" href={project.links.frontend} target="_blank" >
               Front-End Github Repository
             </a>
           </li>
           <li>
-            <a href={project.links.backend} target="_blank" >
+            <a rel="noopener noreferrer" href={project.links.backend} target="_blank" >
               Back-End Github Repository
             </a>
           </li>
           <li>
-            <a href={project.links.live} target="_blank" >
+            <a rel="noopener noreferrer" href={project.links.live} target="_blank" >
               Deployed Application
             </a>
           </li>
