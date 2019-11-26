@@ -5,7 +5,7 @@
     color: white;
     margin: 5%;
 }
-.test {
+.cover-container {
     border: 5px solid rgb(253, 85, 48);
     background-color: rgb(10, 10, 10);
     display: grid;
@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.test a {
+.cover-container a {
     text-decoration: none;
     color: white;
     padding: 4px;
@@ -30,6 +30,7 @@
     font-size: 1.2em;
     letter-spacing: 1.5px;
     font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 .quote h2 {
     font-size: 1.3em;

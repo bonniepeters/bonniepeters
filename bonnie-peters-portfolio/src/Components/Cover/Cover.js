@@ -4,7 +4,7 @@ import "./Cover.css";
 class Cover extends Component {
   render() {
     return (
-      <div className="test">
+      <div className="cover-container">
         <div className="cover">
           <h1>Bonnie Peters</h1>
           <div className="quote">
