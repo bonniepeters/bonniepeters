@@ -6,9 +6,6 @@ font-family: 'Roboto', sans-serif; */
   position: relative;
   min-height: 100vh;
 }
-.header {
-  font-family: 'Raleway', sans-serif;
-}
 body {
   margin: 0;
 }
@@ -75,4 +72,37 @@ li > a {
 p {
   letter-spacing: .4px;
   text-align: justify;
+}
+
+@media screen and (min-width: 450px) {
+  .cover-container {
+    width: 420px;
+    margin: 0 auto;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .home {
+    display: inline-grid ;
+  }
+  .cover-container {
+    margin: 0 2%;
+    position: fixed;
+    width: 450px;
+    height: 87%;
+  }
+  .cover {
+    width: 80%;
+  }
+  .content {
+    padding-left: 450px;
+    margin-top: 0;
+  }
 }

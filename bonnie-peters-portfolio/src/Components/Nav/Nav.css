@@ -4,7 +4,8 @@
     top: 0;
     background-color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
 }
 .logo {
     width: 60px;
