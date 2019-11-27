@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bonniepeters/static/css/main.a43e2753.chunk.css",
+    "main.css": "/bonniepeters/static/css/main.f5b95ee9.chunk.css",
     "main.js": "/bonniepeters/static/js/main.d64dd827.chunk.js",
     "main.js.map": "/bonniepeters/static/js/main.d64dd827.chunk.js.map",
     "runtime-main.js": "/bonniepeters/static/js/runtime-main.445418b9.js",
@@ -8,14 +8,14 @@
     "static/js/2.f94d2c26.chunk.js": "/bonniepeters/static/js/2.f94d2c26.chunk.js",
     "static/js/2.f94d2c26.chunk.js.map": "/bonniepeters/static/js/2.f94d2c26.chunk.js.map",
     "index.html": "/bonniepeters/index.html",
-    "precache-manifest.1e51234104f4ad39d0332d27d431047f.js": "/bonniepeters/precache-manifest.1e51234104f4ad39d0332d27d431047f.js",
+    "precache-manifest.787c22dd8566a06664fbbd2fb85dc4ed.js": "/bonniepeters/precache-manifest.787c22dd8566a06664fbbd2fb85dc4ed.js",
     "service-worker.js": "/bonniepeters/service-worker.js",
-    "static/css/main.a43e2753.chunk.css.map": "/bonniepeters/static/css/main.a43e2753.chunk.css.map"
+    "static/css/main.f5b95ee9.chunk.css.map": "/bonniepeters/static/css/main.f5b95ee9.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.445418b9.js",
     "static/js/2.f94d2c26.chunk.js",
-    "static/css/main.a43e2753.chunk.css",
+    "static/css/main.f5b95ee9.chunk.css",
     "static/js/main.d64dd827.chunk.js"
   ]
 }
