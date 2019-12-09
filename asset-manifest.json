@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bonniepeters/static/css/main.f5b95ee9.chunk.css",
-    "main.js": "/bonniepeters/static/js/main.d64dd827.chunk.js",
-    "main.js.map": "/bonniepeters/static/js/main.d64dd827.chunk.js.map",
+    "main.css": "/bonniepeters/static/css/main.3c852649.chunk.css",
+    "main.js": "/bonniepeters/static/js/main.dcac6798.chunk.js",
+    "main.js.map": "/bonniepeters/static/js/main.dcac6798.chunk.js.map",
     "runtime-main.js": "/bonniepeters/static/js/runtime-main.445418b9.js",
     "runtime-main.js.map": "/bonniepeters/static/js/runtime-main.445418b9.js.map",
-    "static/js/2.f94d2c26.chunk.js": "/bonniepeters/static/js/2.f94d2c26.chunk.js",
-    "static/js/2.f94d2c26.chunk.js.map": "/bonniepeters/static/js/2.f94d2c26.chunk.js.map",
+    "static/js/2.57bd2a65.chunk.js": "/bonniepeters/static/js/2.57bd2a65.chunk.js",
+    "static/js/2.57bd2a65.chunk.js.map": "/bonniepeters/static/js/2.57bd2a65.chunk.js.map",
     "index.html": "/bonniepeters/index.html",
-    "precache-manifest.787c22dd8566a06664fbbd2fb85dc4ed.js": "/bonniepeters/precache-manifest.787c22dd8566a06664fbbd2fb85dc4ed.js",
+    "precache-manifest.8c30d8b4d06c02338b5a3f8587474355.js": "/bonniepeters/precache-manifest.8c30d8b4d06c02338b5a3f8587474355.js",
     "service-worker.js": "/bonniepeters/service-worker.js",
-    "static/css/main.f5b95ee9.chunk.css.map": "/bonniepeters/static/css/main.f5b95ee9.chunk.css.map"
+    "static/css/main.3c852649.chunk.css.map": "/bonniepeters/static/css/main.3c852649.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.445418b9.js",
-    "static/js/2.f94d2c26.chunk.js",
-    "static/css/main.f5b95ee9.chunk.css",
-    "static/js/main.d64dd827.chunk.js"
+    "static/js/2.57bd2a65.chunk.js",
+    "static/css/main.3c852649.chunk.css",
+    "static/js/main.dcac6798.chunk.js"
   ]
 }
